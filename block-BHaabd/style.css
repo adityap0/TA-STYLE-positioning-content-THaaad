@@ -1,0 +1,64 @@
+body{
+    background: #EFEFEF;
+}
+h1{
+    text-align : center;
+}
+.parent-div{
+    margin: 0 auto;
+    max-width: 800px;
+    height: 700px;
+    border: 1px solid white;
+    background: white;
+   
+}
+
+.child1{
+    padding:0 5px ;
+    max-width: 20%;
+    float: left;
+    height: 700px;
+    
+
+}
+
+.child2{
+block-size: border;
+padding: 0 5px;    
+width: 50%;
+float: left;
+height: 700px;
+
+}
+
+.child3{
+    
+    block-size: border;
+    padding: 0 5px;    
+    width: 25.5%;
+    float: left;
+    height: 700px;
+  
+}
+
+.parent-div::before, .parent-div::after
+{
+    content:  "";
+    display: table;
+}
+.parent-div::after {
+    clear: both;
+}
+img{
+    
+    margin: 50px;
+    width: 80%;
+    height: 80%;
+}
+p{
+    text-align: center;
+}
+.p1{
+    margin-top: 30px;
+    text-align: center;
+}
