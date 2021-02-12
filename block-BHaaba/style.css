@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    color: white;
+    
+}
+H2{
+    text-align: center;
+}
+
+.hero{
+    padding: 50px;
+    width: auto;
+    height : 100px;
+    background-image: url('wwww.png');
+}
+
+.nav{
+    float : right;
+    background-color: blanchedalmond;
+}
+
+article{
+   
+    float : left;
+    color: black;
+    width: 33.33%;
+}
+.main{
+ padding: 50px;
+    width: auto;
+    height : 400px;
+   
+}
+.sec1{
+
+    float: left;
+    width: 33.33%;
+    height: max-content;
+}
+.sec{
+
+    float: both;
+    width: 33.33%;
+    height: max-content;
+}
+.sec3{
+
+    float: right;
+    width: 33.33%;
+    height: max-content;
+}
+
+section{
+    text-align: center;
+    padding: 50px;
+    width: auto;
+    height : 100px;
+}
+img{
+    width: 100%;
+}
