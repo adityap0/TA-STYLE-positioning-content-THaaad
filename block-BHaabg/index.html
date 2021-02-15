@@ -1,0 +1,71 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+    <header class='clearfix' >
+        <h1>
+            Watermelon sugar!
+        </h1>
+        <img src="harry.png" alt=" ">
+        <nav class='nav'>
+            <a href="https://launchpad.altcampus.school/todos/today">To Do</a>
+            <a href="https://launchpad.altcampus.school/feed">Feed</a>
+            <a href="https://launchpad.altcampus.school/board">Board</a>
+            </nav>
+    </header>
+    <main>
+        <section class='section clearfix'>
+            <article class='art1'>
+                <h2>
+                    This is the first article!
+                </h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi obcaecati, ea veniam ratione odit quos laudantium! Dolore eius totam, repudiandae rerum minus, provident quidem corrupti quod optio perspiciatis molestiae quae?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi obcaecati, ea veniam ratione odit quos laudantium! Dolore eius totam, repudiandae rerum minus, provident quidem corrupti quod optio perspiciatis molestiae quae?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi obcaecati, ea veniam ratione odit quos laudantium! Dolore eius totam, repudiandae rerum minus, provident quidem corrupti quod optio perspiciatis molestiae quae?
+                </p>
+            </article>
+            <article class='art2'>
+               <img class='img2' src='harry.png' alt="">
+            </article>
+        </section>
+        <section class='section2 clearfix'>
+            <article class='art1-1'> <img class ='img21' src='harry.png'></article>
+            <article class='art2-1'> <img class ='img21' src='harry.png'></article>
+            <article class='art3-1'> <img class ='img21' src='harry.png'></article>
+        </section>
+        <section class='section2 clearfix'>
+            <article class='art1-1'> <img class ='img21' src='harry.png'></article>
+            <article class='art2-1'> <img class ='img21' src='harry.png'></article>
+            <article class='art3-1'> <img class ='img21' src='harry.png'></article>
+        </section>
+    </main>
+    <footer>
+        <h1>
+            THIS IS THE FOOTER!
+        </h1>
+        <a href="#main">Top</a>
+    </footer>
+</body>
+</html>
